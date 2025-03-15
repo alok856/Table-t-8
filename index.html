@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Data Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #21374d;
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #132332;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        p span {
+            color: #0a034f; /* Highlighting college name in blue */
+            font-weight: bold;
+        }
+
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: #ffffff;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-bottom: 40px;
+        }
+
+        table th, table td {
+            padding: 16px;
+            text-align: left;
+            border: 1px solid #ddd;
+            font-size: 16px;
+        }
+
+        table th {
+            background-color: #800e67; /* University green color */
+            color: white;
+            text-transform: uppercase;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        table tr:hover {
+            background-color: #ecf0f1;
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 18px;
+            color: #34495e;
+            padding-top: 20px;
+            border-top: 2px solid #ddd;
+        }
+
+        footer span {
+            font-weight: bold;
+            color: #0b5689; /* Blue for the name */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            table {
+                width: 100%;
+            }
+
+            table th, table td {
+                padding: 12px 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1><b><u>Student Information</u></b></h1>
+    <p>Here is a list of students from <b style="color:#540d45"><u> Govt. Engineering College, Vaishali </u></b> <span>(Bihar Engineering University, Patna)</span> . These students are pursuing different engineering courses in the College. The table below contains their names, roll numbers, email addresses, and the branches they are studying in. </p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Roll Number</th>
+                <th>Email</th>
+                <th>Branch</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alok Kumar</td>
+                <td>26</td>
+                <td>alokkumar101@gmail.com</td>
+                <td>Computer Science</td>
+            </tr>
+            <tr>
+                <td>Ravi Sharma</td>
+                <td>12</td>
+                <td>ravisharma143@gmail.com</td>
+                <td>Electrical</td>
+            </tr>
+            <tr>
+                <td>Pooja Gupta</td>
+                <td>33</td>
+                <td>poojagupta153@gmail.com</td>
+                <td>Mechanical</td>
+            </tr>
+            <tr>
+                <td>Shubham Patel</td>
+                <td>42</td>
+                <td>shubhampatel110@gmail.com</td>
+                <td>Civil</td>
+            </tr>
+            <tr>
+                <td>Priya Yadav</td>
+                <td>05</td>
+                <td>priyayadav543@gmail.com</td>
+                <td>Computer Science</td>
+            </tr>
+            <tr>
+                <td>Rahul Mahto</td>
+                <td>17</td>
+                <td>rahulmahto342@gmail.com</td>
+                <td>Electronics</td>
+            </tr>
+            <tr>
+                <td>Sneha Sharma</td>
+                <td>27</td>
+                <td>snehasharma875@gmail.com</td>
+                <td>Computer Science</td>
+            </tr>
+            <tr>
+                <td>Vikas Verma</td>
+                <td>35</td>
+                <td>vikasverma190@gmail.com</td>
+                <td>Mechanical</td>
+            </tr>
+            <tr>
+                <td>Anjali Singh</td>
+                <td>54</td>
+                <td>anjalisingh673@gmail.com</td>
+                <td>Civil</td>
+            </tr>
+            <tr>
+                <td>Sandeep Kumar</td>
+                <td>11</td>
+                <td>sandeepkumar389@gmail.com</td>
+                <td>Computer Science</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- Footer Section -->
+    <footer>
+        <p>Developed by <span>Alok_Kumar</span></p>
+    </footer>
+</body>
+</html>
